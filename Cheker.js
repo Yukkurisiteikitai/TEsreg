@@ -25,6 +25,7 @@ const resultDivision = document.getElementById('result-area');
 const tweetDivision = document.getElementById('tweet-area');
 
 
+
 userNameInput.addEventListener(
     'keydown',
     (event) => {
@@ -113,6 +114,11 @@ function PrintCheaker(){
     anchor.setAttribute('data-text',result);
     anchor.innerHTML = 'Tweet #あなたのいいところ';
     tweetDivision.appendChild(anchor);
+
+    //Input Add
+    const kind = document.createdElement('p');
+    kind = 'Kind is no shield';
+    tweetDivision.appendChild(kind);
 }
 
 //startLineCheack
