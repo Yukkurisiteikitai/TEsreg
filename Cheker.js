@@ -16,7 +16,9 @@ const answers = [
     "###userName###のいいところは好奇心です。新しいことに向かっていく###userName###の心構えが多くの人に魅力的に映ります。",
     "###userName###のいいところは気配りです。###userName###の配慮が多くの人を救っています。",
     "###userName###のいいところはその全てです。ありのままの###userName###自身がいいところなのです。",
-    "###userName###のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる###userName###が皆から評価されています。"
+    "###userName###のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる###userName###が皆から評価されています。",
+    "###userName###のいいところは優しさです。その優しさが組織の均衡を保つと###userName###が皆から評価されています。",
+    "###userName###の確かな勇気が戦士を育てている"
 ];
 //IDs
 const userNameInput = document.getElementById('userName');
